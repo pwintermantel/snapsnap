@@ -1,0 +1,1 @@
+docker run -i -v $(pwd):/project-root -v $($HOME)/.ssh:/ssh -t kfinteractive/capistrano cap $*

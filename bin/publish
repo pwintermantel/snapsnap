@@ -1,0 +1,1 @@
+docker build -t pwintermantel/snapsnap:latest . && docker push pwintermantel/snapsnap:latest

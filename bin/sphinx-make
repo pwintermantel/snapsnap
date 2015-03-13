@@ -1,0 +1,1 @@
+docker run -i -v $(pwd)/src:/src/ -v $(pwd)/doc:/doc -w /doc -t kfinteractive/sphinx-doc:latest make $*

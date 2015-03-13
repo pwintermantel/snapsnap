@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec docker exec -i snapsnap_web_1 composer $@
