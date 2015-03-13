@@ -1,4 +1,4 @@
-FROM cccoding/php-nginx:latest
+FROM kfinteractive/php-nginx:latest
 
 MAINTAINER KFI pw@kf-interactive.com
 
