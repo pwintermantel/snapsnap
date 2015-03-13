@@ -33,4 +33,4 @@ The application is has multiple Containers that are orchestrated by _Docker Comp
 
 # Deployment
 
-As minimalistic deployment scenario you can run `build/publish`, take the docker-compose-production.yml and run it with `docker-compose up -f docker-compose-production.yml` on any `Docker` / `Docker Composer` enabled machine. Of course, by itself, it doesn't cover cover bootstrapping for a database or other components, but you will have the base a persistent data container.
+As minimalistic deployment scenario you can run `build/publish`, take the docker-compose-production.yml and run it with `docker-compose up -f docker-compose-production.yml` on any `Docker` / `Docker Composer` enabled machine. Of course, by itself, it doesn't cover cover bootstrapping for a database or other components, but you will have the base with a persistent data container.
